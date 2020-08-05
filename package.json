@@ -1,10 +1,10 @@
 {
-  "name": "cv-isaac",
+  "name": "learning-blog",
   "version": "1.0.0",
-  "description": "CV Isaac",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass index.scss index.css --style compressed",
+    "sass": "node-sass Style/index.scss Style/css/index.css --style compressed",
     "prefix":"postcss Style/Index.css --use autoprefixer -d Style/prefixed/"
   },
   "author": "Paolo MEKHAIL",
