@@ -1,0 +1,16 @@
+{
+  "name": "cv-isaac",
+  "version": "1.0.0",
+  "description": "CV Isaac",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass index.scss index.css --style compressed",
+    "prefix":"postcss Style/Index.css --use autoprefixer -d Style/prefixed/"
+  },
+  "author": "Paolo MEKHAIL",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "browserslist": "last 4 versions"
+}
