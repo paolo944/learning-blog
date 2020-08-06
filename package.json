@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass Style/index.scss Style/css/index.css --style compressed",
+    "sass": "node-sass Style/sass/base.scss Style/css/index.css --style compressed",
     "prefix":"postcss Style/Index.css --use autoprefixer -d Style/prefixed/"
   },
   "author": "Paolo MEKHAIL",

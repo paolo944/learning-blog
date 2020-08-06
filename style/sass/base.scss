@@ -1,0 +1,29 @@
+@import "utils.scss";
+@import "layouts.scss";
+@import "components.scss";
+
+.top-bar{
+   @include heading;
+    // // & :hover{
+    // //     animation: grand 0.5s forwards;
+    // // }
+    // // @keyframes grand {
+    // //     from{
+    // //         height: 150px;
+    // //         font-size: 15px;
+    // //     }
+    // //     to{
+    // //         height: 225px;
+    // //         font-size: 15*1.5px;
+    // //     }
+    // }
+}
+
+ul{
+    display: flex;
+    height: 100%;
+    width: 200px;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+}
